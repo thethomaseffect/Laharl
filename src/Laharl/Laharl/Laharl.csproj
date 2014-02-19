@@ -19,8 +19,12 @@
   <ItemGroup>
     <Content Include="content\default.css" />
     <Content Include="default.htm" />
+    <TypeScriptCompile Include="scripts\collections\games.ts" />
+    <TypeScriptCompile Include="scripts\models\game.ts" />
+    <TypeScriptCompile Include="scripts\routes\games.ts" />
     <Content Include="scripts\vendor\backbone-min.js" />
     <Content Include="scripts\vendor\backbone.js" />
+    <Content Include="scripts\templates\games.ejs" />
     <None Include="scripts\vendor\jquery-2.1.0.intellisense.js" />
     <Content Include="scripts\vendor\jquery-2.1.0.js" />
     <Content Include="scripts\vendor\jquery-2.1.0.min.js" />
@@ -29,6 +33,7 @@
     <Content Include="scripts\vendor\r.js" />
     <Content Include="scripts\vendor\require.js" />
     <Content Include="scripts\vendor\text.js" />
+    <TypeScriptCompile Include="scripts\views\games.ts" />
     <Content Include="web.config" />
     <Content Include="scripts\vendor\jquery-2.1.0.min.map" />
   </ItemGroup>
